@@ -50,4 +50,5 @@ GROUP BY t1.id
 /*limits the script to transactions where counts are greater than 1*/
 HAVING savings_count>=1
    AND investment_count >= 1
+ORDER BY 5
 LIMIT 5;

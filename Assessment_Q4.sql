@@ -27,4 +27,6 @@ SELECT
 FROM cust_info a
 INNER JOIN trans_fetch b
 ON a.customer_id = b.owner_id
+WHERE tenure_months >=1
+ORDER BY 5 DESC
 LIMIT 5;
